@@ -1,0 +1,52 @@
+{
+    "algorithm": {
+        "command": null,
+        "id": 0,
+        "name": "Gensim Continuous Skipgram",
+        "tool": "Gensim",
+        "url": "https://github.com/RaRe-Technologies/gensim",
+        "version": "3.1"
+    },
+    "contents": [
+        {
+            "filename": "model.txt",
+            "format": "text"
+        },
+        {
+            "filename": "model.bin",
+            "format": "binary"
+        },
+        {
+            "filename": "meta.json",
+            "format": "json"
+        }
+    ],
+    "corpus": [
+        {
+            "NER": true,
+            "case preserved": true,
+            "description": "English Wikipedia Dump of February 2017",
+            "id": 2,
+            "language": "eng",
+            "lemmatized": true,
+            "public": true,
+            "stop words removal": "NLTK",
+            "tagger": "Stanford Core NLP v. 3.6.0",
+            "tagset": "UPoS",
+            "tokens": 2252637050,
+            "tool": "Wikipedia Extractor",
+            "url": "https://dumps.wikimedia.org/"
+        }
+    ],
+    "dimensions": 300,
+    "id": 3,
+    "iterations": 5,
+    "maintainers": [
+        {
+            "email": "andreku@ifi.uio.no",
+            "name": "Andrey Kutuzov"
+        }
+    ],
+    "vocabulary size": 296630,
+    "window": 5
+}
